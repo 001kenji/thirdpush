@@ -1,0 +1,19 @@
+p :first-child{
+    color: red;
+    border-radius: 12px;
+    border-color: black;
+    border: 2px solid blue;
+    width: 200px;
+    background-color: darkcyan;
+}
+#set{
+    border: 5px solid grey;
+    border-radius: 12px;
+    outline-style: double;
+    outline-color: darkgreen;
+    box-sizing: 6px;
+    background-color: black;
+}
+p :last-child i{
+    color:purple;
+}

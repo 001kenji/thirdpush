@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="file.CSS" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>file_picker</title>
+    <script src="FILEJS.js"></script>
+</head>
+<body>
+    <p> select a file to pick</p>
+    <form name="profile">
+<p>click: <input type="file" >,to pick a file from your computer </p>
+<button type="button" onclick="FileReader">click here</button><br>
+<input type="text" placeholder="enter  firstName"><br>
+<input type="text" placeholder="enter  lastName"><br>
+<input type="email" placeholder="enter  email"><br>
+<input type="date" placeholder="enter  date of birth"id="bd"><br>
+<input type="text" placeholder="enter  KCSE grade" required name="mks"><br>
+<input type="submit" value="proceed" onclick="auth()">
+    </form>
+    <p id="out"></p>
+    <p class="trial">will apear here</p>
+</body>
+</html>

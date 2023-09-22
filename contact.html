@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <style>
+        form{
+            width: fit-content;
+            height: fit-content;
+            border: 1px solid black;
+            padding: 3px;
+            display: grid;
+            box-shadow: 1px 1px 9px gold;
+            border-radius: 5px;
+            color: white;
+        }
+        label{
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        input{
+            border: 0.5px solid black;
+            border-radius: 5px;
+        }
+        input[type=submit]{
+            color: black;
+            font-weight: bolder;
+            background-image: linear-gradient(grey, azure, white, grey);
+        }
+        input:active{
+            box-shadow: 1px 1px 9px red;
+        }
+        input[type=submit]:hover{
+            cursor: pointer;
+            box-shadow: 1px 1px 6px azure;
+        }
+    </style>
+</head>
+<form name="details">
+    <label>input your firstname: </label>
+    <input type="text" name="firstname">
+    <label>input your lastname: </label>
+    <input type="text" name="lastname">
+    <label>input your email: </label>
+    <input type="email" name="email" required>
+    <label>input your birthdate: </label>
+    <input type="date" name="birthdate">
+    <label>Enter your query: </label>
+    <textarea name="message" style="width: 180px; height: 90px; text-overflow: ellipsis; resize: vertical;" placeholder="enter message" ></textarea>
+
+    <input type="submit"value="Send">
+</form>
+<body>
+    
+</body>
+</html>
